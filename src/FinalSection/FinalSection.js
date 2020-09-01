@@ -1,15 +1,11 @@
 import React from 'react';
-
 import classes from '../FinalSection/FinalSection.module.css';
 import TickGray from '../images/tick-gray.png';
 import TickBlue from '../images/tick-blue.png';
-
 import PinkUser from '../images/user-pink.png';
 import OrangeUser from '../images/user-orange.png';
 import BlueUser from '../images/user-blue.png';
 import RedUser from '../images/user-red.png';
-
-
 
 
 const FinalSection = () => {

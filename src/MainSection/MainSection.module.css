@@ -52,6 +52,15 @@
     bottom: 17px;
 }
 
+.ButtonWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.ArrowUp{
+    margin: 0 10px;
+}
+
 .LandingSectionWrapper{
     flex-basis: 50%;
 }

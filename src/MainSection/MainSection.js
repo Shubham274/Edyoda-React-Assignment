@@ -2,6 +2,8 @@ import React from 'react';
 
 import classes from '../MainSection/MainSection.module.css';
 import LandingStunningIcon from '../images/landing-section-image.png';
+import ArrowUp from '../images/arrow-up.png';
+import ArrowDown from '../images/arrow-down.png';
 
 
 const MainSection = () => {
@@ -18,8 +20,11 @@ const MainSection = () => {
                 With Stunning, remote teams can organize projects, managing shifting priorities, and get work done.
                 
             </p>
+            <div className={classes.ButtonWrapper}>
             <button className={classes.NewAccountBtn}>New Account</button>
-
+            <img  className={classes.ArrowUp} src={ArrowUp} alt="ArrowUp" />
+            <img src={ArrowDown} alt="ArrowDown" />
+            </div>
            </div>
            <div className={classes.LandingSectionWrapper}>           
            <img className={classes.LandingImage} src={LandingStunningIcon} alt="Landing image" />
