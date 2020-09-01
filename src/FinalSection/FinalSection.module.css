@@ -1,0 +1,61 @@
+.FinalSection{
+    margin-bottom: 150px;
+}
+
+.Designdata{
+    background-color: #FBFBFB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 26%;
+    border-radius: 14px;
+    padding: 12px 19px;
+    margin-left: 113px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.Designdata.WhiteBox{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0.5px 0.5px;
+}
+
+.Box
+{
+    width: 20px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.Box.PinkColor{
+    background-color: #FFD8DB;
+}
+
+.Box.OrangeColor{
+    background-color: #FD6534;
+}
+
+.Box.BlueColor{
+    background-color: #9ED196;
+}
+
+.Box.RedColor{
+    background-color: #FFE2A1;
+}
+
+.GreySpan{
+    color: #ccc;
+}
+
+.BoxPara{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 780px) {
+    .Designdata{
+        width: 100%;
+        margin-left: 15px;
+        
+    }
+}

@@ -1,0 +1,69 @@
+.TopBar{
+    padding: 2% 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100px;
+}
+
+.HamBurgerIcon{
+   display: none;
+}
+
+.MenuLink{
+    border-bottom:3px solid #4B33C1;
+    border-radius: 2px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.NavLink{
+    color: #ccc;
+    margin: 0 30px;
+    font-weight: bold;
+
+}
+
+.NavLink:hover{
+    color: #000;
+    
+}
+
+
+.AccountBtn{
+    color:#826EC8;
+    font-weight: bold;
+    background-color: #FFD8DB;
+    padding: 22px 33px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+
+}
+
+@media only screen and (max-width: 780px) {
+
+
+    .HamBurgerIcon{
+        display: block;
+        width: 25px;
+     }
+     
+
+   .NavLink{
+       display: none;
+       
+   }
+   .AccountBtn{
+       display: none;
+   }
+    }

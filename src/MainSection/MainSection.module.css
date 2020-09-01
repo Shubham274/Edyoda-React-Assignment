@@ -1,0 +1,77 @@
+.MainSection{
+    padding: 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.NewAccountBtn{
+    color:#fff;
+    font-weight: bold;
+    background-color: #5243C0;
+    padding: 22px 33px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+
+
+}
+
+.LandingTitle{
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.LandingImage{
+    width: 100%;
+}
+
+.LandingPara{
+    width: 400px;
+    letter-spacing: 0.5px;
+    color: #696969;
+}
+.ContentWrapper{
+    position: relative;
+}
+
+.Dot{
+    
+    width: 12px;
+    height: 12px;
+    background-color: #5243C0;
+    position: absolute;
+    right: -16px;
+    bottom: 17px;
+}
+
+.LandingSectionWrapper{
+    flex-basis: 50%;
+}
+
+@media only screen and (max-width: 780px) {
+
+.MainSection{
+    flex-wrap: wrap;
+}
+
+.LandingTitle{
+    font-size: 62px;
+    line-height: inherit;
+}
+.LandingImage{
+    width: 100vw;
+    height: 100vw;
+    margin: 50px 16px;
+}
+.Dot{
+    right: 60px;
+}
+}
